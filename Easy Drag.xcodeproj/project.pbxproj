@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		891FE5531627E81A00560252 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891FE5521627E81A00560252 /* IOKit.framework */; };
+		894DC852148F07450060735A /* easy-drag-1.1.1.icns in Resources */ = {isa = PBXBuildFile; fileRef = 894DC851148F07450060735A /* easy-drag-1.1.1.icns */; };
+		89755BC015298391005B1ECF /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89755BBF15298391005B1ECF /* Quartz.framework */; };
+		89B15A85152A8EC100C7BD80 /* EDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B15A84152A8EC100C7BD80 /* EDTextField.m */; };
+		89B15A89152AB37200C7BD80 /* EDInfoTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B15A88152AB37200C7BD80 /* EDInfoTextField.m */; };
+		89B15A8C152ABEC800C7BD80 /* EDHUDWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B15A8B152ABEC800C7BD80 /* EDHUDWindow.m */; };
+		89D4599B140F77FE00B1C1D3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D4599A140F77FE00B1C1D3 /* Cocoa.framework */; };
+		89D459A5140F77FE00B1C1D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89D459A3140F77FE00B1C1D3 /* InfoPlist.strings */; };
+		89D459A7140F77FE00B1C1D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D459A6140F77FE00B1C1D3 /* main.m */; };
+		89D459AB140F77FE00B1C1D3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 89D459A9140F77FE00B1C1D3 /* Credits.rtf */; };
+		89D459AE140F77FE00B1C1D3 /* NKLZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D459AD140F77FE00B1C1D3 /* NKLZAppDelegate.m */; };
+		89D459B1140F77FE00B1C1D3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89D459AF140F77FE00B1C1D3 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		891FE5521627E81A00560252 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		894DC851148F07450060735A /* easy-drag-1.1.1.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "easy-drag-1.1.1.icns"; path = "../easy-drag-1.1.1.icns"; sourceTree = "<group>"; };
+		8958D3B52A93348100F6A4F6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8958D3B62A93348F00F6A4F6 /* Help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Help; sourceTree = "<group>"; };
+		8958D3B72A93348F00F6A4F6 /* Promo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Promo; sourceTree = "<group>"; };
+		89755BBF15298391005B1ECF /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		89B15A83152A8EC100C7BD80 /* EDTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDTextField.h; sourceTree = "<group>"; };
+		89B15A84152A8EC100C7BD80 /* EDTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDTextField.m; sourceTree = "<group>"; };
+		89B15A87152AB37200C7BD80 /* EDInfoTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDInfoTextField.h; sourceTree = "<group>"; };
+		89B15A88152AB37200C7BD80 /* EDInfoTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDInfoTextField.m; sourceTree = "<group>"; };
+		89B15A8A152ABEC800C7BD80 /* EDHUDWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDHUDWindow.h; sourceTree = "<group>"; };
+		89B15A8B152ABEC800C7BD80 /* EDHUDWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDHUDWindow.m; sourceTree = "<group>"; };
+		89D45996140F77FE00B1C1D3 /* Easy Drag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Drag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89D4599A140F77FE00B1C1D3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		89D4599D140F77FE00B1C1D3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		89D4599F140F77FE00B1C1D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		89D459A2140F77FE00B1C1D3 /* Easy Drag-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Easy Drag-Info.plist"; sourceTree = "<group>"; };
+		89D459A4140F77FE00B1C1D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89D459A6140F77FE00B1C1D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89D459A8140F77FE00B1C1D3 /* Easy Drag-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Easy Drag-Prefix.pch"; sourceTree = "<group>"; };
+		89D459AA140F77FE00B1C1D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		89D459AC140F77FE00B1C1D3 /* NKLZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKLZAppDelegate.h; sourceTree = "<group>"; };
+		89D459AD140F77FE00B1C1D3 /* NKLZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKLZAppDelegate.m; sourceTree = "<group>"; };
+		89D459B0140F77FE00B1C1D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89D45993140F77FE00B1C1D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891FE5531627E81A00560252 /* IOKit.framework in Frameworks */,
+				89755BC015298391005B1ECF /* Quartz.framework in Frameworks */,
+				89D4599B140F77FE00B1C1D3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89D4598B140F77FD00B1C1D3 = {
+			isa = PBXGroup;
+			children = (
+				8958D3B52A93348100F6A4F6 /* README.md */,
+				8958D3B62A93348F00F6A4F6 /* Help */,
+				8958D3B72A93348F00F6A4F6 /* Promo */,
+				89D459A0140F77FE00B1C1D3 /* Easy Drag */,
+				89D45999140F77FE00B1C1D3 /* Frameworks */,
+				89D45997140F77FE00B1C1D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89D45997140F77FE00B1C1D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89D45996140F77FE00B1C1D3 /* Easy Drag.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89D45999140F77FE00B1C1D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89755BBF15298391005B1ECF /* Quartz.framework */,
+				89D4599D140F77FE00B1C1D3 /* AppKit.framework */,
+				89D4599F140F77FE00B1C1D3 /* Foundation.framework */,
+				891FE5521627E81A00560252 /* IOKit.framework */,
+				89D4599A140F77FE00B1C1D3 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89D459A0140F77FE00B1C1D3 /* Easy Drag */ = {
+			isa = PBXGroup;
+			children = (
+				89D459AC140F77FE00B1C1D3 /* NKLZAppDelegate.h */,
+				89D459AD140F77FE00B1C1D3 /* NKLZAppDelegate.m */,
+				89B15A8A152ABEC800C7BD80 /* EDHUDWindow.h */,
+				89B15A8B152ABEC800C7BD80 /* EDHUDWindow.m */,
+				89B15A83152A8EC100C7BD80 /* EDTextField.h */,
+				89B15A84152A8EC100C7BD80 /* EDTextField.m */,
+				89B15A87152AB37200C7BD80 /* EDInfoTextField.h */,
+				89B15A88152AB37200C7BD80 /* EDInfoTextField.m */,
+				89D459AF140F77FE00B1C1D3 /* MainMenu.xib */,
+				89D459A1140F77FE00B1C1D3 /* Supporting Files */,
+			);
+			path = "Easy Drag";
+			sourceTree = "<group>";
+		};
+		89D459A1140F77FE00B1C1D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				894DC851148F07450060735A /* easy-drag-1.1.1.icns */,
+				89D459A2140F77FE00B1C1D3 /* Easy Drag-Info.plist */,
+				89D459A3140F77FE00B1C1D3 /* InfoPlist.strings */,
+				89D459A6140F77FE00B1C1D3 /* main.m */,
+				89D459A8140F77FE00B1C1D3 /* Easy Drag-Prefix.pch */,
+				89D459A9140F77FE00B1C1D3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89D45995140F77FE00B1C1D3 /* Easy Drag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89D459B4140F77FE00B1C1D3 /* Build configuration list for PBXNativeTarget "Easy Drag" */;
+			buildPhases = (
+				89D45992140F77FE00B1C1D3 /* Sources */,
+				89D45993140F77FE00B1C1D3 /* Frameworks */,
+				89D45994140F77FE00B1C1D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Easy Drag";
+			productName = "Easy Drag";
+			productReference = 89D45996140F77FE00B1C1D3 /* Easy Drag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89D4598D140F77FD00B1C1D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 89D45990140F77FD00B1C1D3 /* Build configuration list for PBXProject "Easy Drag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 89D4598B140F77FD00B1C1D3;
+			productRefGroup = 89D45997140F77FE00B1C1D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89D45995140F77FE00B1C1D3 /* Easy Drag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89D45994140F77FE00B1C1D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89D459A5140F77FE00B1C1D3 /* InfoPlist.strings in Resources */,
+				89D459AB140F77FE00B1C1D3 /* Credits.rtf in Resources */,
+				89D459B1140F77FE00B1C1D3 /* MainMenu.xib in Resources */,
+				894DC852148F07450060735A /* easy-drag-1.1.1.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89D45992140F77FE00B1C1D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89D459A7140F77FE00B1C1D3 /* main.m in Sources */,
+				89D459AE140F77FE00B1C1D3 /* NKLZAppDelegate.m in Sources */,
+				89B15A85152A8EC100C7BD80 /* EDTextField.m in Sources */,
+				89B15A89152AB37200C7BD80 /* EDInfoTextField.m in Sources */,
+				89B15A8C152ABEC800C7BD80 /* EDHUDWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89D459A3140F77FE00B1C1D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89D459A4140F77FE00B1C1D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		89D459A9140F77FE00B1C1D3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89D459AA140F77FE00B1C1D3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		89D459AF140F77FE00B1C1D3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89D459B0140F77FE00B1C1D3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89D459B2140F77FE00B1C1D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		89D459B3140F77FE00B1C1D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		89D459B5140F77FE00B1C1D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Easy Drag/Easy Drag-Prefix.pch";
+				INFOPLIST_FILE = "Easy Drag/Easy Drag-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		89D459B6140F77FE00B1C1D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Easy Drag/Easy Drag-Prefix.pch";
+				INFOPLIST_FILE = "Easy Drag/Easy Drag-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89D45990140F77FD00B1C1D3 /* Build configuration list for PBXProject "Easy Drag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89D459B2140F77FE00B1C1D3 /* Debug */,
+				89D459B3140F77FE00B1C1D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89D459B4140F77FE00B1C1D3 /* Build configuration list for PBXNativeTarget "Easy Drag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89D459B5140F77FE00B1C1D3 /* Debug */,
+				89D459B6140F77FE00B1C1D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89D4598D140F77FD00B1C1D3 /* Project object */;
+}
